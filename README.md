@@ -1,9 +1,12 @@
 # 单元测试
 
+karma > mocha/jasmina (BDD) > mocha 插件chai(支持TDD/BDD)
+
 ###全局 mocha
 - 执行 mocha ,  默认执行 test下面的js文件
 - mocha --reporter spec server-test/*.js   // 执行一定路径中的文件
 
+###chai模块
 ###grunt-cafe-mocha 项目中
 grunt cafemocha 执行配置文件中目录中的js文件， // 打印的错误太多，不知道怎么调
 
