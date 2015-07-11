@@ -13,7 +13,8 @@ module.exports = function(grunt){
         },
         exec: {
             ssh :{
-                cmd: 'eval $(ssh-agent -s)\n ssh-add ~/.ssh/github'
+                cmd: 'ssh-add ~/.ssh/github'  //eval $(ssh-agent -s) ≤ª»√÷¥––
+
             }
         }
     });
